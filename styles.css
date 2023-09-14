@@ -10,14 +10,21 @@ p{
 }
 #level-title {
   font-size: 3rem;
-  margin:  2%;
   color: #fff;
+}
+.game-board{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 button {
   background-color: green;
@@ -84,9 +91,6 @@ button {
 }
 
 footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
   width: 100%;
   color: #fff;
   text-align: center;
